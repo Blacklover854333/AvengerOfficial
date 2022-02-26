@@ -12,7 +12,7 @@
 <a href="https://github.com/BotsClub/AvengerOfficial/issues"><img src="https://img.shields.io/github/issues/BotsClub/AvengerOfficial?style=social&logo=github" />
 <a href="https://github.com/BotsClub/AvengerOfficial/blob/main/LICENSE"><img src="https://img.shields.io/badge/AGPL%203.0%20License-blue.svg?style=social&logo=github" />
 <a href="https://github.com/BotsClub/AvengerOfficial/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=social&logo=github" />
-<a href="https://GitHub.com/BotsClub/AvengerOfficial/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained-yes-green.svg?style=social&logo=github" />
+<a href="https://gitHub.com/BotsClub/AvengerOfficial/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained-yes-green.svg?style=social&logo=github" />
 </p>
 
 #
