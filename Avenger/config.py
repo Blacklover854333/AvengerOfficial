@@ -10,14 +10,14 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = 123456 ""
-    API_HASH = "awoo"
+    API_ID = "123456"
+    API_HASH = "mkspali"
     TOKEN = "BOT_TOKEN"
-    OWNER_ID = 412094015
+    OWNER_ID = "412094015"
     OWNER_USERNAME = "mkspali"
     SUPPORT_CHAT = "BotsClubDiscussion"
-    JOIN_LOGGER = (-100)
-    EVENT_LOGS = (-100)
+    JOIN_LOGGER = "-100"
+    EVENT_LOGS = "-100"
 
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"
     LOAD = []
@@ -38,13 +38,13 @@ class Config(object):
     PORT = 5000
     DEL_CMDS = True
     STRICT_GBAN = True
-    WORKERS = (8)
+    WORKERS = "8"
     BAN_STICKER = ""
     ALLOW_EXCL = True
-    CASH_API_KEY = ("-mkspali")
-    TIME_API_KEY = "-mkspali"
-    WALL_API = ("-mkspali")
-    AI_API_KEY = "-mkspali"
+    CASH_API_KEY = "mkspali"
+    TIME_API_KEY = "mkspali"
+    WALL_API = "mkspali"
+    AI_API_KEY = "mkspali"
     BL_CHATS = []
     SPAMMERS = None
 
