@@ -11,7 +11,6 @@ def send_message(message, text, *args, **kwargs):
 
 
 def typing_action(func):
-    
     @wraps(func)
     def command_func(update, context, *args, **kwargs):
         context.bot.send_chat_action(
@@ -23,7 +22,6 @@ def typing_action(func):
 
 
 def send_action(action):
-    
     def decorator(func):
         @wraps(func)
         def command_func(update, context, *args, **kwargs):
