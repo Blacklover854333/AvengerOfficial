@@ -22,9 +22,11 @@ from ptbcontrib.postgres_persistence import PostgresPersistence
 
 StartTime = time.time()
 
+
 def get_user_list(__init__, key):
     with open("{}/Avenger/{}".format(os.getcwd(), __init__), "r") as json_file:
         return json.load(json_file)[key]
+
 
 FORMAT = "[Avenger] %(message)s"
 logging.basicConfig(
@@ -34,10 +36,14 @@ logging.basicConfig(
     datefmt="[%X]",
 )
 logging.getLogger("pyrogram").setLevel(logging.INFO)
-logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
+logging.getLogger("ptbcontrib.postgres_persistence.postgrespersistence").setLevel(
+    logging.WARNING
+)
 
-LOGGER = logging.getLogger('[Avenger]')
-LOGGER.info("Avenger is starting. | A BotsClub Project Parts. | Licensed under AGPL-3.0")
+LOGGER = logging.getLogger("[Avenger]")
+LOGGER.info(
+    "Avenger is starting. | A BotsClub Project Parts. | Licensed under AGPL-3.0"
+)
 LOGGER.info("Not affiliated with any other telegram bot and organisations.")
 LOGGER.info("Codes maintained by: https://t.me/mkspali")
 
@@ -73,7 +79,7 @@ if ENV:
 
     try:
         WOLVES = {int(x) for x in os.environ.get("WOLVES", "").split()}
-    except ValueError: 
+    except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
     try:
@@ -254,6 +260,7 @@ pbot = Client(
 apps = []
 apps.append(pbot)
 loop = asyncio.get_event_loop()
+
 
 async def get_entity(client, entity):
     entity_client = client
