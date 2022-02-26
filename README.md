@@ -6,7 +6,7 @@
 <p align="center">
 <a href="https://github.com/BotsClub/AvengerOfficial/network/members"><img src="https://img.shields.io/github/forks/BotsClub/AvengerOfficial?style=social" />
 <a href="https://github.com/BotsClub/AvengerOfficial/stargazers"><img src="https://img.shields.io/github/stars/BotsClub/AvengerOfficial?style=social" />
-<img src="https://img.shields.io/github/watchers/BotsClub/AvengerOfficial?style=social" />
+<a href="https://github.com/BotsClub/AvengerOfficial/watchers"><img src="https://img.shields.io/github/watchers/BotsClub/AvengerOfficial?style=social" />
 <a href="https://github.com/BotsClub/AvengerOfficial"><img src="https://img.shields.io/github/repo-size/BotsClub/AvengerOfficial?style=social&logo=github" />
 <a href="https://github.com/BotsClub/AvengerOfficial/graphs/commit-activity"><img src="https://img.shields.io/github/last-commit/BotsClub/AvengerOfficial?style=social&logo=github" />
 <a href="https://github.com/BotsClub/AvengerOfficial/issues"><img src="https://img.shields.io/github/issues/BotsClub/AvengerOfficial?style=social&logo=github" />
