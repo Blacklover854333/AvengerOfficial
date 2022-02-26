@@ -97,7 +97,7 @@ async def delete_or_pass(message):
 def humanbytes(size):
     if not size:
         return ""
-    power = 2 ** 10
+    power = 2**10
     raised_to_pow = 0
     dict_power_n = {0: "", 1: "Ki", 2: "Mi", 3: "Gi", 4: "Ti"}
     while size > power:
@@ -282,7 +282,6 @@ def get_text(message: Message) -> [None, str]:
         return None
 
 
-
 admins: Dict[str, List[User]] = {}
 
 
@@ -352,8 +351,6 @@ def capture_err(func):
             raise err
 
     return capture
-
-
 
 
 async def member_permissions(chat_id, user_id):
