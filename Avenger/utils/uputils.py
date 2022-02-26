@@ -23,7 +23,7 @@ async def progress(current, total, event, start, type_of_ps):
 
 
 def convert_from_bytes(size):
-    power = 2 ** 10
+    power = 2**10
     n = 0
     units = {0: "", 1: "kilobytes", 2: "megabytes", 3: "gigabytes", 4: "terabytes"}
     while size > power:
@@ -35,7 +35,7 @@ def convert_from_bytes(size):
 def humanbytes(size):
     if not size:
         return ""
-    power = 2 ** 10
+    power = 2**10
     raised_to_pow = 0
     dict_power_n = {0: "", 1: "Ki", 2: "Mi", 3: "Gi", 4: "Ti"}
     while size > power:
