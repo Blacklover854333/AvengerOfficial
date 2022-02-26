@@ -10,7 +10,6 @@ from telegram import MessageEntity
 from telegram.utils.helpers import escape_markdown
 
 
-
 MATCH_MD = re.compile(
     r"\*(.*?)\*|"
     r"_(.*?)_|"
